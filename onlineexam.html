@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        h1{
+
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <form onsubmit="result()">
+    <h1 class="Heading">Online Examination</h1>
+    <h2>Question 1: What is the full form of DBMS?</h2>
+    <input type="checkbox" id="0" value="a">a) Database Managment System <br>
+    <input type="checkbox" value="a">b) Database Managment System  <br>
+    <input type="checkbox" value="a">c) Database Managment System <br>
+    <input type="checkbox" value="a">d) Database Managment System <br>
+    </div>
+
+    <div>
+        
+        <h2>Question 1: What is the full form of DBMS?</h2>
+        <input type="checkbox"  value="a">a) Database Managment System <br>
+        <input type="checkbox" id="1" value="a">b) Database Managment System  <br>
+        <input type="checkbox" value="a">c) Database Managment System <br>
+        <input type="checkbox" value="a">d) Database Managment System <br>
+        </div>
+        <br>
+             <input type="submit">
+    </form>
+    <script type="text/javascript">
+        function result()
+        {
+            var count=0;
+            
+            for(i=0;i<2;i++)
+            {
+                
+                var result=document.getElementById("i").value;
+                if(result.checked!=0)
+                {
+                    count++;
+                    document.write(count);
+                }
+            }
+
+        }
+    </script>
+    </body>
+</html>
