@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-
-<head>
-    <title>
-        Recruitment system
-    </title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-
-</head>
-
-<body>
-    <h1 align="center" font-family="Verdana, Geneva, Tahoma, sans-serif" background-color="rgb(70, 14, 122)">Welcome to Online Job Recruitment system</h1>
-    <script src="index.js"></script>
-    <div class="main">
-        <div class="navbar">
-            <ul>
-                <li><a class="active" href="">Home</a></li>
-                <div class="dropdown">
-                    <button class="dropbtn">Jobs 
+    <head>
+        <title>
+            Recruitment system
+        </title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="https://kit.fontawesome.com/f167f6ef57.js" crossorigin="anonymous"></script>
+        
+    </head>
+     
+    <body>
+        <script src="index.js"></script>
+        <div class="main">
+            <div class="navbar">
+                <ul class="u1">
+                    <li><a class="active" href="">Home</a></li>
+                    <div class="dropdown">
+                      <button class="dropbtn">Jobs 
                         <i class="fa fa-caret-down"></i>
                       </button>
-                    <div class="dropdown-content">
+                      <div class="dropdown-content">
                         <a href="#">Contract Jobs</a>
                         <a href="#">Walkin jobs</a>
                         <a href="#">Jobs by Location</a>
@@ -27,42 +26,29 @@
                         <a href="#">Jobs By Industry</a>
                         <a href="job.html">Jobs By Company</a>
 
+                      </div>
                     </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">Services 
+                    <li><a href="services.html">Services</a></li>
+                    
+                    <div class="dropdown">
+                      <button class="dropbtn">Recruiters 
                         <i class="fa fa-caret-down"></i>
                       </button>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-
-                    </div>
-                </div>
-
-                <div class="dropdown">
-                    <button class="dropbtn">Recruiters 
-                        <i class="fa fa-caret-down"></i>
-                      </button>
-                    <div class="dropdown-content">
+                      <div class="dropdown-content">
                         <a href="#">Recruiter Updates</a>
                         <a href="#">Recruiters you are following</a>
                         <a href="#">Shortcodes</a>
+                        
 
-
+                      </div>
                     </div>
-                </div>
-
-                <li><a href="">Contact</a></li>
-                <div class="dropdown">
-                    <button class="dropbtn">More 
+                    
+                    <li><a href="">Contact</a></li>
+                    <div class="dropdown">
+                      <button class="dropbtn">More 
                         <i class="fa fa-caret-down"></i>
                       </button>
-                    <div class="dropdown-content">
+                      <div class="dropdown-content">
                         <a href="#">Walk-Ins</a>
                         <a href="#">Bpo Jobs</a>
                         <a href="#">Teaching Jobs</a>
@@ -70,49 +56,170 @@
                         <a href="#">Tech Support</a>
                         <a href="#">Finance Jobs</a>
                         <a href="#">Parttime Jobs</a>
-                        <a href="#">Health Care</a>
+                        <a href="#">Health Care</a>  
                         <a href="#">Hospitality</a>
                         <a href="#">Internships</a>
                         <a href="#">Research Jobs</a>
                         <a href="#">Defence Jobs</a>
+    
+    
+    
 
-
-
-
+                      </div>
                     </div>
-                </div>
-                <li><a href="register.html">Register</a></li>
-                <li><a href="">Login</a></li>
-                <li><a href="">Upload Resume</a></li>
-                <li><a href="aboutus.html">About</a></li>
+                    
+                    <li><a href="">Login</a></li>
+                    <li><a href="">Upload Resume</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+
+                    
+                    
+   
+                </ul>
+
+            </div>
 
 
-            </ul>
+        
+            
 
+
+            
         </div>
-        <div class="banner">
-            <div class="container">
-                <div id="search_wrapper">
-                    <div id="search_form" class="clearfix">
-                        <h1>Start your job search</h1>
-                        <p>
-                            <input type="text" class="text" placeholder=" " value="Enter Keyword(s)" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Keyword(s)';}">
-                            <input type="text" class="text" placeholder=" " value="Location" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Location';}">
-                            <label class="btn2 btn-2 btn2-1b"><input type="submit" value="Find Jobs"></label>
-                        </p>
-                        <h2 class="title">top Countries &amp; searches</h2>
-                    </div>
+        <br>
+                <div class="search1">
+          <div class="search-container">
+            <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+            <input type="text" placeholder="Search..">
+        </div>
+        <br>
+        <div class="bg-img">
+          <h1 style="text-align:center;">Recuirment Room</h1>
+           
+          <form class="container" action="login.php" method="post">
+              <b>Username</b>
+              <input type="text" placeholder="Username Please"
+                      name="username" required>
+   
+              <b>Password</b>
+              <input type="password" placeholder="Enter Password"
+                      name="password" required>
+   
+              <button type="submit" class="button">Login</button>
+          </form>
+      </div>
+        
+        <h2>Today Jobs</h2>
+        <div class="parent">
+        <div class="flex-container1">
+          
+          <ul class="list_1">
+            <li><a class="a1" href="#">Department of Health - Western Australia</a></li>
+            <li><a class="a1" href="#">Australian Nursing Agency currently require experiences</a></li>		
+            <li><a class="a1" href="#">Russia Nursing Agency currently require experiences</a></li>
+            <li><a class="a1" href="#">The Government of Western Saudi Arbia</a></li>		
+            <li><a class="a1" href="#">Department of Health - Western Australia</a></li>
+            <li><a class="a1" href="#">Australian Nursing Agency currently require experiences</a></li>		
+            <li><a class="a1" href="#">Russia Nursing Agency currently require experiences</a></li>
+            <li><a class="a1" href="#">The Scientific Publishing Services in Saudi Arbia</a></li>	
+            <li><a class="a1" href="#">BPO Private Limited in Canada</a></li>		
+            <li><a class="a1" href="#">Executive Tracks Associates in Pakistan</a></li>
+            <li><a class="a1" href="#">Pyramid IT Consulting Pvt. Ltd. in Pakistan</a></li>						
+          </ul>
+               
+          </div>    
+          
+          
+       
 
 
 
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTihykrdXXowGCD3Tsrz-3nJbd5b2cAp4TIPA&usqp=CAU" style="width:100%">
+  <div class="text"><button>Hurryy Up! Register Now</button></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWYiNPNVg9CWCxI2ZooF6LdyYgWnDxwRECpg&usqp=CAU" style="width:100%">
+  <div class="text"><button>Hurryy Up! Register Now</button></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR078cQym4eWYbzq8tWAoBynP_s1-X4WaE55Q&usqp=CAU" style="width:90%">
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
 
 
 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>    
+<div class="para">
+  <h2>Main Objective</h2>
+  <p>Recuirment Room as the name suggests it is the open door for all the job opportunities's.The platform welcomes all with a huge level of enthusiasm and help them to begin,with a great carrer indeed. </p>
+  
+
+  </div>
+
+  <div class="review">
+    <h4><a href="single.html">It is a long established fact</a></h4>
+    <h6>SIt is a long <span class="dot">·</span> Jul. 31, 2015</h6>
+    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+    <div class="social">	
+      <a class="btn_1" href="#">
+        <i class="fa fa-facebook fb"></i>
+        <span class="share1 fb">Share</span>								
+      </a>
+      <a class="btn_1" href="#">
+        <i class="fa fa-twitter tw"></i>
+        <span class="share1">Tweet</span>								
+      </a>
+      <a class="btn_1" href="#">
+        <i class="fa fa-google-plus google"></i>
+        <span class="share1 google">Share</span>
+      </a>
+     </div>
 
 
-                </div>
-</body>
 
+         
+    </body>
+             
 
 
 </html>
